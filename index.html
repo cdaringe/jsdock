@@ -48,8 +48,9 @@
 
 
     <section class="readme">
-        <article><h1>jsdock</h1><p>your favorite way to build &amp; publish JSDoc API docs.</p>
-<p>a zero conf CLI to give you well styled docs and a publish to gh-pages. stop thinking about it. just write JSDoc and let jsdock do the rest.</p>
+        <article><h1>jsdock</h1><p><a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide"></a> <a href="https://app.codeship.com/projects/246951"> <img src="https://app.codeship.com/projects/269e2760-8195-0135-24b6-4e7f91221a42/status?branch=master" alt="Codeship Status for cdaringe/jsdock"></a></p>
+<p>your favorite way to build &amp; publish <a href="https://www.npmjs.com/package/jsdoc">JSDoc</a> API documentation.</p>
+<p>a zero conf tool for well-styled docs and publishing to gh-pages. stop thinking about it. just write JSDoc and let jsdock do the rest.</p>
 <h2>install</h2><p><code>npm install --save-dev jsdock</code></p>
 <h2>example</h2><ul>
 <li>you write a library with JSDoc</li>
@@ -62,7 +63,17 @@
     &quot;docs:build&quot;: jsdock build, // builds to docs/ dir in project root
     &quot;docs:publish&quot;: jsdoc publish // publish to &lt;user>.github.io/&lt;project>
   }
-}</code></pre><h2>api</h2><p>see the <a href="https://cdaringe.github.io/jsdock">api docs</a>.</p></article>
+}</code></pre><p>currently you must:</p>
+<ul>
+<li>have a README.md</li>
+<li>put your source in <code>src/</code>.<ul>
+<li>if you don't like that ^, send me a PR</li>
+</ul>
+</li>
+<li>use node 7.10.+</li>
+</ul>
+<h2>api/demo</h2><p>see the <a href="https://cdaringe.github.io/jsdock">api docs</a>.</p>
+<h2>really?</h2><p>yes. configuration sucks.  checking it in is totally 2016.</p></article>
     </section>
 
 
