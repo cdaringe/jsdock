@@ -13,15 +13,15 @@ a zero conf tool for well-styled docs and publishing to gh-pages. stop thinking 
 ## example
 
 - you write a library with JSDoc
-- you run `jsdock build` and `jsdoc publish`
+- you run `jsdock build` and `jsdock publish`
 
 ```json5
 // package.json
 {
   "scripts": {
-    "docs:clean": jsdock clean,
     "docs:build": jsdock build, // builds to docs/ dir in project root
-    "docs:publish": jsdoc publish // publish to <user>.github.io/<project>
+    "docs:publish": jsdoc publish, // publish to <user>.github.io/<project>
+    "docs:clean": jsdock clean
   }
 }
 ```
@@ -40,3 +40,5 @@ see the [api docs](https://cdaringe.github.io/jsdock).
 ## really?
 
 yes. configuration sucks.  checking it in is totally 2016.
+
+sorry for the confusing name. ;)
