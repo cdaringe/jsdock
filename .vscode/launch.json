@@ -10,6 +10,24 @@
       {
         "type": "node",
         "request": "launch",
+        "name": "build",
+        "program": "${workspaceRoot}/bin/cli.js",
+        "args": [
+          "build"
+        ]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "publish",
+        "program": "${workspaceRoot}/bin/cli.js",
+        "args": [
+          "publish"
+        ]
+      },
+      {
+        "type": "node",
+        "request": "launch",
         "name": "Run AVA test",
         "program": "${workspaceRoot}/node_modules/ava/profile.js",
         "args": [

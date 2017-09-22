@@ -10,6 +10,9 @@ const { Project } = require('counsel/src/Project')
 const debug = require('debug')('jsdock')
 const util = new Project()
 
+/**
+ * @module jsdock
+ */
 module.exports = {
   /**
    * Clean the jsdoc build folder
@@ -52,8 +55,8 @@ module.exports = {
    * @private
    * @description Executes gh-pages publish
    */
-  async _ghPublish () {
-    return pify(ghPages.publish)
+  _ghPublish () {
+    return pify(ghPages.publish.bind(ghPages))
   },
 
   /**

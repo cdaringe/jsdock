@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "no sweat, no conf, build & deploy of jsdoc api docs",
   "main": "src/index.js",
-  "bin": "bin/cli.js",
+  "bin": "src/bin/cli.js",
   "scripts": {
     "test": "ava",
     "precommit": "run-p check lint test check-vulnerablities",
     "check": "counsel check",
     "check-vulnerablities": "nsp check",
     "lint": "standard",
-    "docs:build": "bin/cli.js build",
-    "docs:publish": "bin/cli.js publish",
+    "docs:build": "src/bin/cli.js build",
+    "docs:publish": "src/bin/cli.js publish",
     "postpublish": "run-s docs:build docs:publish"
   },
   "repository": {
@@ -40,6 +40,7 @@
     "execa": "^0.8.0",
     "fs-extra": "^4.0.2",
     "gh-pages": "^1.0.0",
+    "perish": "^1.0.1",
     "pify": "^3.0.0"
   },
   "devDependencies": {
