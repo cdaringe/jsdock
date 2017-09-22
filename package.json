@@ -1,7 +1,7 @@
 {
   "name": "jsdock",
-  "version": "0.0.1",
-  "description": "no sweat, no conf, build & deploy of jsdoc api docs",
+  "version": "1.0.0",
+  "description": "zero conf build & deploy of jsdoc api docs",
   "main": "src/index.js",
   "bin": "src/bin/cli.js",
   "scripts": {
