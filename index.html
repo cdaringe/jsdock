@@ -54,14 +54,14 @@
 <h2>install</h2><p><code>npm install --save-dev jsdock</code></p>
 <h2>example</h2><ul>
 <li>you write a library with JSDoc</li>
-<li>you run <code>jsdock build</code> and <code>jsdoc publish</code></li>
+<li>you run <code>jsdock build</code> and <code>jsdock publish</code></li>
 </ul>
 <pre class="prettyprint source lang-json5"><code>// package.json
 {
   &quot;scripts&quot;: {
-    &quot;docs:clean&quot;: jsdock clean,
     &quot;docs:build&quot;: jsdock build, // builds to docs/ dir in project root
-    &quot;docs:publish&quot;: jsdoc publish // publish to &lt;user>.github.io/&lt;project>
+    &quot;docs:publish&quot;: jsdoc publish, // publish to &lt;user>.github.io/&lt;project>
+    &quot;docs:clean&quot;: jsdock clean
   }
 }</code></pre><p>currently you must:</p>
 <ul>
@@ -73,7 +73,8 @@
 <li>use node 7.10.+</li>
 </ul>
 <h2>api/demo</h2><p>see the <a href="https://cdaringe.github.io/jsdock">api docs</a>.</p>
-<h2>really?</h2><p>yes. configuration sucks.  checking it in is totally 2016.</p></article>
+<h2>really?</h2><p>yes. configuration sucks.  checking it in is totally 2016.</p>
+<p>sorry for the confusing name. ;)</p></article>
     </section>
 
 
