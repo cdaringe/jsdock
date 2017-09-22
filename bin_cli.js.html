@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Home - Documentation</title>
+    <title>bin/cli.js - Documentation</title>
 
     <script src="scripts/prettify/prettify.js"></script>
     <script src="scripts/prettify/lang-css.js"></script>
@@ -30,43 +30,39 @@ Accepts one of build, publish, or clean</a></span></li>
 
 <div id="main">
     
+    <h1 class="page-title">bin/cli.js</h1>
+    
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>#!/usr/bin/env node
+'use strict'
 
+require('perish')
+const debug = require('debug')('jsdock')
 
+/**
+ * @module cli
+ * Accepts one of build, publish, or clean
+ *
+ * @example
+ * $ jsdock build
+ * docs build successfully
+ * $ jsdoc publish
+ */
+const cmd = process.argv[2]
+const jsdock = require('../index')
 
-
-
-
-
-
-
-    
-
-
-    <section class="readme">
-        <article><h1>jsdock</h1><p>your favorite way to build &amp; publish JSDoc API docs.</p>
-<p>a zero conf CLI to give you well styled docs and a publish to gh-pages. stop thinking about it. just write JSDoc and let jsdock do the rest.</p>
-<h2>install</h2><p><code>npm install --save-dev jsdock</code></p>
-<h2>example</h2><ul>
-<li>you write a library with JSDoc</li>
-<li>you run <code>jsdock build</code> and <code>jsdoc publish</code></li>
-</ul>
-<pre class="prettyprint source lang-json5"><code>// package.json
-{
-  &quot;scripts&quot;: {
-    &quot;docs:clean&quot;: jsdock clean,
-    &quot;docs:build&quot;: jsdock build, // builds to docs/ dir in project root
-    &quot;docs:publish&quot;: jsdoc publish // publish to &lt;user>.github.io/&lt;project>
-  }
-}</code></pre><h2>api</h2><p>see the <a href="https://cdaringe.github.io/jsdock">api docs</a>.</p></article>
+debug('executing cmd: ' + cmd)
+jsdock[cmd].bind(jsdock)() // eslint-disable-line
+</code></pre>
+        </article>
     </section>
-
-
 
 
 
