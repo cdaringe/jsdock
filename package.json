@@ -1,6 +1,6 @@
 {
   "name": "jsdock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "zero conf build & deploy of jsdoc api docs",
   "main": "src/index.js",
   "bin": "src/bin/cli.js",
@@ -39,19 +39,19 @@
     "debug": "^3.0.1",
     "execa": "^0.8.0",
     "fs-extra": "^4.0.2",
+    "jsdoc": "^3.5.5",
     "gh-pages": "^1.0.0",
+    "resolve-jsdoc-bin": "^1.0.0",
+    "minami": "^1.2.3",
     "perish": "^1.0.1",
     "pify": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
     "husky": "^0.14.3",
-    "jsdoc": "^3.5.5",
-    "minami": "^1.2.3",
     "npm-run-all": "^4.1.1",
     "nsp": "^2.8.0",
     "nyc": "^11.2.1",
-    "resolve-jsdoc-bin": "^1.0.0",
     "sinon": "^3.3.0",
     "standard": "^10.0.3"
   }
