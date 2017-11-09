@@ -2,9 +2,21 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [ ![Codeship Status for cdaringe/jsdock](https://app.codeship.com/projects/269e2760-8195-0135-24b6-4e7f91221a42/status?branch=master)](https://app.codeship.com/projects/246951)
 
-your favorite way to build & publish [JSDoc](https://www.npmjs.com/package/jsdoc) API documentation.
 
-a zero conf tool for well-styled docs and publishing to gh-pages. stop thinking about it. just write JSDoc and let jsdock do the rest.
+## what
+
+a zero configuration tool for well-styled API docs and publishing to gh-pages. just write [JSDoc](https://www.npmjs.com/package/jsdoc) and let jsdock do the rest.
+
+## why
+
+there are some good patterns for publishing library docs that `jsdoc` doesn't
+give you right out of the box.  **`jsdock`** is for library authors who want
+no brainer API docs without boilerplate.
+
+- you want your `README.md` embedded in your API doc's homepage
+- you want markdown support in your JSDoc tags. syntax highlighting in examples, etc.
+- the default `JSDoc` theme isn't great. `minami` is laid out 'mo betta
+- you (may) want a single command to build and publish your docs to github pages
 
 ## install
 
