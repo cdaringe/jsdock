@@ -5,17 +5,17 @@
 
 ## what
 
-a zero configuration tool for well-styled API docs and publishing to gh-pages. just write [JSDoc](https://www.npmjs.com/package/jsdoc) and let jsdock do the rest.
+a zero configuration tool for well-styled API docs and publishing to gh-pages. just write [JSDoc](https://www.npmjs.com/package/jsdoc) and let `jsdock` do the rest.
 
 ## why
 
-there are some good patterns for publishing library docs that `jsdoc` doesn't
+there are some good patterns for publishing library API docs that `jsdoc` doesn't
 give you right out of the box.  **`jsdock`** is for library authors who want
-no brainer API docs without boilerplate.
+no brainer API docs without managing boilerplate.
 
-- you want your `README.md` embedded in your API doc's homepage
+- you want your `README.md` embedded in your API documentation homepage
 - you want markdown support in your JSDoc tags. syntax highlighting in examples, etc.
-- the default `JSDoc` theme isn't great. `minami` is laid out 'mo betta
+- the default `JSDoc` theme isn't great. [minami](https://github.com/Nijikokun/minami) is 'mo betta
 - you (may) want a single command to build and publish your docs to github pages
 
 ## install
