@@ -36,7 +36,7 @@
   "homepage": "https://github.com/cdaringe/jsdock#readme",
   "dependencies": {
     "counsel": "^0.5.2",
-    "debug": "^3.0.1",
+    "debug": "^4.0.0",
     "execa": "^0.10.0",
     "fs-extra": "^7.0.0",
     "jsdoc": "^3.5.5",
