@@ -40,7 +40,7 @@
     "execa": "^0.10.0",
     "fs-extra": "^7.0.0",
     "jsdoc": "^3.5.5",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^2.0.1",
     "resolve-jsdoc-bin": "^1.0.0",
     "minami": "^1.2.3",
     "perish": "^1.0.1",
