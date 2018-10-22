@@ -44,7 +44,7 @@
     "resolve-jsdoc-bin": "^1.0.0",
     "minami": "^1.2.3",
     "perish": "^1.0.1",
-    "pify": "^3.0.0"
+    "pify": "^4.0.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
