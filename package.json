@@ -38,7 +38,7 @@
     "counsel": "^0.5.2",
     "debug": "^4.0.0",
     "execa": "^0.10.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^8.0.1",
     "jsdoc": "^3.5.5",
     "gh-pages": "^1.0.0",
     "resolve-jsdoc-bin": "^1.0.0",
