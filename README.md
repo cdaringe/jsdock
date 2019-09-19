@@ -1,7 +1,5 @@
 # jsdock
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/jsdock.svg)](https://greenkeeper.io/)
-
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [ ![Codeship Status for cdaringe/jsdock](https://app.codeship.com/projects/269e2760-8195-0135-24b6-4e7f91221a42/status?branch=master)](https://app.codeship.com/projects/246951)
 
 
