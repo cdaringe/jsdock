@@ -47,7 +47,7 @@
     "pify": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "1.0.1",
+    "ava": "1.4.1",
     "husky": "1.0.0",
     "npm-run-all": "4.1.1",
     "nsp": "3.2.1",
